@@ -1,0 +1,25 @@
+.loading{
+    margin: 0 auto;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.loading:before{
+    content: '';
+    animation: load 10s infinite ;
+}
+
+.loading:before{
+    font-size: 1.3rem;
+}
+
+@keyframes load {
+    0% {content: 'Fetching ideas that surprise..';}
+    15%{content: 'Loading innovations...';}
+    30%{content: 'Ideating possibilities.';}
+    45%{content: 'Analysing data..';}
+    60%{content: 'Loading the ideal team...';}
+    75%{content: 'Building partnernships.';}
+    85%{content: 'Extending beyond boundaries..';}
+    100%{content: 'Celebrating Innovation...';}
+}

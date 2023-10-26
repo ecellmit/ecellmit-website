@@ -1,0 +1,226 @@
+html {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    -webkit-font-smoothing: antialiased;
+    background-color: #050505;
+    font-family: 'Titillium Web', sans-serif;
+    scroll-behavior: smooth;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+.three-fourth-container {
+    width: 75%;
+}
+
+/* Customization for scrollbar */
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #5CE1E6 rgb(0, 0, 0);
+}
+
+/* Works on Chrome, Edge, and Safari */
+
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background: rgb(0, 0, 0);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #5CE1E6;
+    border-radius: 20px;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+.black-text {
+    font-weight: 900;
+}
+
+.bold-text {
+    font-weight: 700;
+}
+
+.regular-text {
+    font-weight: 400;
+}
+
+.liq-text {
+    color: #5CE1E6;
+}
+
+.overlay-card {
+    animation: slide-in-left 100ms ease-in;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.overlay-card div {
+    animation: slide-in-right 400ms ease-in-out;
+}
+
+@keyframes slide-in-left {
+    from {
+        left: -10px;
+    } to {
+        left: 0;
+    }
+}
+
+@keyframes slide-in-right {
+    from {
+        left: 50px;
+    } to {
+        left: 0;
+    }
+}
+
+.back-to-all {
+    background-color: transparent;
+}
+
+.ic-image {
+    background-image: url("./assets/IC.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.stroke-text {
+    font-size: 4rem;
+	-webkit-text-stroke: 2px white;
+	-webkit-text-fill-color: transparent;
+}
+
+.slanted-container {
+    height: 500px;
+    background-color: #5CE1E6;
+    clip-path: polygon(
+        0 0, 
+        0 100%,
+        100% calc(100% - 7vw),
+        100% 0
+    );
+}
+
+.slanted-container div:nth-child(1) {
+    width: 85%;
+}
+
+.slanted-container div:nth-child(1) p:nth-child(1){
+    font-size: 3rem;
+}
+
+.slanted-container div:nth-child(1) p:nth-child(2){
+    font-size: 4rem;
+}
+
+.slanted-container div:nth-child(1) p:nth-child(3){
+    font-size: 3rem;
+}
+
+.partner-card:hover {
+    transform: scale(1.01);
+}
+
+.contact-form {
+    width: 40%;
+}
+
+.dir-image {
+    width: 35%;
+    height: 390px;
+}
+
+.blog-back {
+    background-image: url("./assets/gridback.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.alumni-back {
+    background-image: url("./assets/Group\ 29.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 35vh;
+}
+
+.dev-container {
+    width: 75%;
+}
+
+.dev-back {
+    padding: 0.5rem 1rem;
+    color: #5CE1E6;
+    border: 2px solid #5CE1E6;
+    border-radius: 0.8rem;
+}
+
+.dev-back:hover { 
+    transform: translateY(0.5rem);
+    transition-duration: 500ms;
+} 
+
+@media only screen and (max-width: 800px) {
+    .three-fourth-container {
+        width: 95%;
+    }
+    .back-to-all {
+        background-color: #050505;
+        z-index: 100;
+    }
+    .stroke-text {
+        font-size: 2.5rem;
+    }
+    .slanted-container {
+        height: 50vh;
+    }
+    .slanted-container div:nth-child(1) {
+        width: 80%;
+    }
+    .slanted-container div:nth-child(1) p:nth-child(1){
+        font-size: 1.8rem;
+    }
+    .slanted-container div:nth-child(1) p:nth-child(2){
+        font-size: 2rem;
+    }
+    .slanted-container div:nth-child(1) p:nth-child(3){
+        font-size: 1.8rem;
+    }
+    .dir-image {
+        width: 100%;
+        max-height: 250px;
+        margin: 0 auto;
+    }
+    .contact-form {
+        width: 100%;
+    }
+    .alumni-back {
+        background-image: none;
+    }
+    .dev-container {
+        width: 100%;
+    }
+}

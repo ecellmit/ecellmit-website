@@ -1,0 +1,53 @@
+.dev-card {
+    max-width: 33%;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 0 1rem;
+}
+
+.dev-card:hover{ 
+    box-shadow: rgba(255, 255, 255, 0.05) 0px 0px 10px;
+}
+
+.dev-image {
+    height: 150px;
+    border-radius: 50%;
+}
+
+.dev-name {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.dev-bio {
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+a {
+    color: white;
+}
+
+.dev-tag:hover {
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(158, 58, 158);
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 814px) {
+    .dev-card {
+        min-width: 100%;
+        margin: 0;
+    }
+    .dev-image {
+        height: 100px;
+    }
+    .dev-name {
+        font-size: 1.4rem;
+    }
+    .dev-bio {
+        font-size: 1.1rem;
+    }
+}
