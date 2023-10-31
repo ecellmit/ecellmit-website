@@ -1,4 +1,4 @@
-![](./extras/eCellLight.png)
+<!-- ![](./extras/eCellLight.png)
 
 # The Entrepreneurship Cell MIT Manipal
 
@@ -27,4 +27,4 @@ Find the installation guide for the project [here](https://github.com/Parthiv-M/
 
 
 
-
+ -->
