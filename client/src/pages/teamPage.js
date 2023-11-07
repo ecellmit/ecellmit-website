@@ -65,7 +65,66 @@ const TeamPage = () => {
             email: "john.doe1@example.com",
           },
         },
-    // Add data for the other 11 members here...
+        {
+            name: "John Doe 1",
+            position: "President",
+            photo: "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png",
+            social: {
+              instagram: "john_doe_instagram1",
+              linkedin: "john_doe_linkedin1",
+              email: "john.doe1@example.com",
+            },
+          },
+          {
+              name: "John Doe 1",
+              position: "President",
+              photo: "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png",
+              social: {
+                instagram: "john_doe_instagram1",
+                linkedin: "john_doe_linkedin1",
+                email: "john.doe1@example.com",
+              },
+            },
+            {
+              name: "John Doe 1",
+              position: "President",
+              photo: "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png",
+              social: {
+                instagram: "john_doe_instagram1",
+                linkedin: "john_doe_linkedin1",
+                email: "john.doe1@example.com",
+              },
+            },
+            {
+              name: "John Doe 1",
+              position: "President",
+              photo: "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png",
+              social: {
+                instagram: "john_doe_instagram1",
+                linkedin: "john_doe_linkedin1",
+                email: "john.doe1@example.com",
+              },
+            },
+            {
+                name: "John Doe 1",
+                position: "President",
+                photo: "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png",
+                social: {
+                  instagram: "john_doe_instagram1",
+                  linkedin: "john_doe_linkedin1",
+                  email: "john.doe1@example.com",
+                },
+              },
+              {
+                name: "John Doe 1",
+                position: "President",
+                photo: "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png",
+                social: {
+                  instagram: "john_doe_instagram1",
+                  linkedin: "john_doe_linkedin1",
+                  email: "john.doe1@example.com",
+                },
+              },
   ];
 
   return (
