@@ -6,9 +6,9 @@ const TeamPage = () => {
   // Hardcoded team member data for 12 members
   const hardcodedTeamData = [
     {
-      name: "John Doe 1",
-      position: "President",
-      photo: "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png",
+      name: "Shravani Bhor",
+      position: "CEO",
+      photo: "https://i.ibb.co/RBFZrR1/shravaniphoto.jpg",
       social: {
         instagram: "john_doe_instagram1",
         linkedin: "john_doe_linkedin1",
@@ -16,8 +16,8 @@ const TeamPage = () => {
       },
     },
     {
-        name: "John Doe 1",
-        position: "President",
+        name: "Vansh Nyati",
+        position: "Technical Head",
         photo: "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png",
         social: {
           instagram: "john_doe_instagram1",
