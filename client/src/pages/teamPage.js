@@ -1,14 +1,14 @@
 import React from "react";
 import TeamCard from "../components/TeamCard";
-import Loader from "./../components/Loader/Loader";
+//import Loader from "./../components/Loader/Loader";
 
 const TeamPage = () => {
   // Hardcoded team member data for 12 members
   const hardcodedTeamData = [
     {
-      name: "John Doe 1",
+      name: "Ayushi",
       position: "President",
-      photo: "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png",
+            photo: "https://www.google.com/search?q=women+icon&sca_esv=580461025&tbm=isch&sxsrf=AM9HkKlJMkys1DGZ-oe_bX_0Roo_y43SKQ:1699446633773&source=lnms&sa=X&sqi=2&ved=2ahUKEwiWuK6HtLSCAxVtSGwGHTtWCrcQ_AUoAXoECAEQAw&biw=854&bih=793&dpr=1.5#imgrc=77jrqewS73kGeM",
       social: {
         instagram: "john_doe_instagram1",
         linkedin: "john_doe_linkedin1",
@@ -86,7 +86,7 @@ const TeamPage = () => {
               },
             },
             {
-              name: "John Doe 1",
+              name: "John",
               position: "President",
               photo: "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png",
               social: {
