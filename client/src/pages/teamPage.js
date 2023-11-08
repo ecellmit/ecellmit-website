@@ -6,17 +6,17 @@ const TeamPage = () => {
   // Hardcoded team member data for 12 members
   const hardcodedTeamData = [
     {
-      name: "John Doe 1",
-      position: "President",
-      photo: "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png",
+      name: "Anant Agarwal",
+      position: "Founder",
+      photo: "https://media.licdn.com/dms/image/D4D03AQHcD3bwVVx75Q/profile-displayphoto-shrink_800_800/0/1693071990354?e=2147483647&v=beta&t=5XTYQkwUY5rhSeICpmCN-m2jGq4X-u39InWx1GLKnfg",
       social: {
-        instagram: "john_doe_instagram1",
+        instagram: "https://www.instagram.com/ununtag/",
         linkedin: "john_doe_linkedin1",
         email: "john.doe1@example.com",
       },
     },
     {
-        name: "John Doe 1",
+        name: "Rishabh Singh",
         position: "President",
         photo: "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png",
         social: {
