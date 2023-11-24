@@ -26,7 +26,7 @@ const TeamPage = () => {
         },
       },
       {
-        name: "Ayushi Kumari",
+        name: "Aayushi Kumari",
         position: "Marketing Head",
         // photo: "",
         social: {
