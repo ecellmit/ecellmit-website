@@ -1,14 +1,14 @@
 import React from "react";
 import TeamCard from "../components/TeamCard";
-import Loader from "./../components/Loader/Loader";
+//import Loader from "./../components/Loader/Loader";
 
 const TeamPage = () => {
   // Hardcoded team member data for 12 members
   const hardcodedTeamData = [
     {
-      name: "John Doe 1",
+      name: "Ayushi",
       position: "President",
-      photo: "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png",
+            photo: "https://www.google.com/search?q=women+icon&sca_esv=580461025&tbm=isch&sxsrf=AM9HkKlJMkys1DGZ-oe_bX_0Roo_y43SKQ:1699446633773&source=lnms&sa=X&sqi=2&ved=2ahUKEwiWuK6HtLSCAxVtSGwGHTtWCrcQ_AUoAXoECAEQAw&biw=854&bih=793&dpr=1.5#imgrc=77jrqewS73kGeM",
       social: {
         instagram: "john_doe_instagram1",
         linkedin: "john_doe_linkedin1",
@@ -16,7 +16,7 @@ const TeamPage = () => {
       },
     },
     {
-        name: "John Doe 1",
+        name: "John",
         position: "President",
         photo: "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png",
         social: {
@@ -26,23 +26,23 @@ const TeamPage = () => {
         },
       },
       {
-        name: "John Doe 1",
-        position: "President",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png",
+        name: "Aayushi Kumari",
+        position: "Marketing Head",
+        // photo: "",
         social: {
-          instagram: "john_doe_instagram1",
-          linkedin: "john_doe_linkedin1",
-          email: "john.doe1@example.com",
+          instagram: "https://instagram.com/aayushi_kumarii_?igshid=YTQwZjQ0NmI0OA==",
+          linkedin: "https://www.linkedin.com/in/aayushi-kumarii/",
+          email: "aayushi.kumari@learner.manipal.edu",
         },
       },
       {
-        name: "John Doe 1",
-        position: "President",
-        photo: "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png",
+        name: "Shubham Anand",
+        position: "Internal Relations Head",
+        photo: "https://media.licdn.com/dms/image/D5603AQFbNS2g5hxspQ/profile-displayphoto-shrink_400_400/0/1687252121761?e=1706140800&v=beta&t=uO4tSwfcBhygXuzLCz3aIFq7mMjpPPgc0uDeWNRddSU",
         social: {
-          instagram: "john_doe_instagram1",
-          linkedin: "john_doe_linkedin1",
-          email: "john.doe1@example.com",
+          instagram: "https://instagram.com/shubham._1809?igshid=YTQwZjQ0NmI0OA==",
+          linkedin: "https://www.linkedin.com/in/shub-ana/",
+          email: "shubham.anand1@learner.manipal.edu",
         },
       },
       {
@@ -86,7 +86,7 @@ const TeamPage = () => {
               },
             },
             {
-              name: "John Doe 1",
+              name: "John",
               position: "President",
               photo: "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png",
               social: {
