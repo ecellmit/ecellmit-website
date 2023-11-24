@@ -1,6 +1,6 @@
 import React from "react";
 import TeamCard from "../components/TeamCard";
-import Loader from "./../components/Loader/Loader";
+//import Loader from "./../components/Loader/Loader";
 
 const TeamPage = () => {
   // Hardcoded team member data for 12 members
@@ -26,13 +26,13 @@ const TeamPage = () => {
         },
       },
       {
-        name: "Tejas Kittur ",
-        position: "Deputy Chairperson",
-        photo: "https://media.licdn.com/dms/image/D4D03AQE84il9C8PpNQ/profile-displayphoto-shrink_800_800/0/1677150346787?e=1706140800&v=beta&t=m8JzXt8TorZLZepqNYkkgZyxY5qPyKxrvdWihhpg5AQ",
+        name: "Aayushi Kumari",
+        position: "Marketing Head",
+        // photo: "",
         social: {
-          instagram: "john_doe_instagram1",
-          linkedin: "john_doe_linkedin1",
-          email: "john.doe1@example.com",
+          instagram: "https://instagram.com/aayushi_kumarii_?igshid=YTQwZjQ0NmI0OA==",
+          linkedin: "https://www.linkedin.com/in/aayushi-kumarii/",
+          email: "aayushi.kumari@learner.manipal.edu",
         },
       },
       {
@@ -40,9 +40,9 @@ const TeamPage = () => {
         position: "Start Up Development and Guidance Head",       
         photo: "https://media.licdn.com/dms/image/D5635AQHC8nRfkQ7dAg/profile-framedphoto-shrink_800_800/0/1699358431177?e=1701453600&v=beta&t=URp0sJlUueNMnNiYvnkmovnkrn3hK1QKPQA0vDvMPlw",
         social: {
-          instagram: "john_doe_instagram1",
-          linkedin: "john_doe_linkedin1",
-          email: "john.doe1@example.com",
+          instagram: "https://instagram.com/shubham._1809?igshid=YTQwZjQ0NmI0OA==",
+          linkedin: "https://www.linkedin.com/in/shub-ana/",
+          email: "shubham.anand1@learner.manipal.edu",
         },
       },
       {
