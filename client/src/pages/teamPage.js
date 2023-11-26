@@ -4,6 +4,7 @@ import TeamCard from "../components/TeamCard";
 
 const TeamPage = () => {
   // Hardcoded team member data for 12 members
+  //added likedin ids
   const hardcodedTeamData = [
     {
       name: "Vasu Yogeshwar",
@@ -11,7 +12,7 @@ const TeamPage = () => {
       photo: "https://media.licdn.com/dms/image/D4D03AQFGXtAjzUZf6g/profile-displayphoto-shrink_800_800/0/1697662395996?e=1706140800&v=beta&t=H7djEoRp0M5P5rL4Me6bVuIeZhUIc1ulqQHL7iyhVps",
       social: {
         instagram: "",
-        linkedin: "john_doe_linkedin1",
+        linkedin: "https://www.linkedin.com/in/vasu-yogeshwar/",
         email: "john.doe1@example.com",
       },
     },
@@ -21,18 +22,18 @@ const TeamPage = () => {
         photo: "https://media.licdn.com/dms/image/C4D03AQGzasZYxX33wg/profile-displayphoto-shrink_800_800/0/1653243730227?e=1706140800&v=beta&t=KKFTJvD13aRqSclOz4a1Ycimb-0Et11kKyyYEI8F9B4",
         social: {
           instagram: "john_doe_instagram1",
-          linkedin: "john_doe_linkedin1",
+          linkedin: "https://www.linkedin.com/in/raghav-shah-4b9676230/",
           email: "john.doe1@example.com",
         },
       },
       {
-        name: "Aayushi Kumari",
-        position: "Marketing Head",
+        name: "Tejas Kittur",
+        position: "Deputy Chairperson",
         // photo: "",
         social: {
           instagram: "https://instagram.com/aayushi_kumarii_?igshid=YTQwZjQ0NmI0OA==",
-          linkedin: "https://www.linkedin.com/in/aayushi-kumarii/",
-          email: "aayushi.kumari@learner.manipal.edu",
+          linkedin: "https://www.linkedin.com/in/tejas-kittur/",
+          email: ""
         },
       },
       {
@@ -41,8 +42,8 @@ const TeamPage = () => {
         photo: "https://media.licdn.com/dms/image/D5635AQHC8nRfkQ7dAg/profile-framedphoto-shrink_800_800/0/1699358431177?e=1701453600&v=beta&t=URp0sJlUueNMnNiYvnkmovnkrn3hK1QKPQA0vDvMPlw",
         social: {
           instagram: "https://instagram.com/shubham._1809?igshid=YTQwZjQ0NmI0OA==",
-          linkedin: "https://www.linkedin.com/in/shub-ana/",
-          email: "shubham.anand1@learner.manipal.edu",
+          linkedin: "https://www.linkedin.com/in/asmit-agarwal-91a3a6144/",
+          email: "",
         },
       },
       {
@@ -51,7 +52,7 @@ const TeamPage = () => {
           photo: "https://media.licdn.com/dms/image/D4D03AQH0tqDOv0QDkA/profile-displayphoto-shrink_800_800/0/1668972601637?e=1706140800&v=beta&t=t6uOFEAhXGzJ8MffM88qp7bDXkLI1BJPc_b7pKZ8hE8",
           social: {
             instagram: "john_doe_instagram1",
-            linkedin: "john_doe_linkedin1",
+            linkedin: "https://www.linkedin.com/in/ananya-saxena-8328521b9/",
             email: "john.doe1@example.com",
           },
         },
@@ -61,7 +62,7 @@ const TeamPage = () => {
           photo: "https://media.licdn.com/dms/image/C4D03AQF9Wjxv2t7Etw/profile-displayphoto-shrink_800_800/0/1652722450294?e=1706140800&v=beta&t=1j4xNfWl6FKdiAKj-zvKjzwpACQeRq1jAYSbQNLMYkg",
           social: {
             instagram: "john_doe_instagram1",
-            linkedin: "john_doe_linkedin1",
+            linkedin: "https://www.linkedin.com/in/charu-yadav-a9b178227/",
             email: "john.doe1@example.com",
           },
         },
@@ -71,7 +72,7 @@ const TeamPage = () => {
             photo: "https://media.licdn.com/dms/image/D5635AQHwlWDKscMAlg/profile-framedphoto-shrink_800_800/0/1677820580217?e=1701453600&v=beta&t=HhJyUVAADlqWV0HMjMQZULE8KKizo_rFRDQstXjuCAQ",
             social: {
               instagram: "john_doe_instagram1",
-              linkedin: "john_doe_linkedin1",
+              linkedin: "https://www.linkedin.com/in/aayushi-kumarii/",
               email: "john.doe1@example.com",
             },
           },
@@ -81,7 +82,7 @@ const TeamPage = () => {
               photo: "https://media.licdn.com/dms/image/D5635AQFs7oUu2n2v0Q/profile-framedphoto-shrink_800_800/0/1695752690722?e=1701453600&v=beta&t=g9JVb_IArefP0iKiXjXG3SkhlZPcM_cL1ODAL8scWgY",
               social: {
                 instagram: "john_doe_instagram1",
-                linkedin: "john_doe_linkedin1",
+                linkedin: "https://www.linkedin.com/in/sagniksantra/",
                 email: "john.doe1@example.com",
               },
             },
@@ -91,7 +92,7 @@ const TeamPage = () => {
               photo: "https://media.licdn.com/dms/image/D4D35AQFbbUOVU09kDA/profile-framedphoto-shrink_800_800/0/1700823830572?e=1701453600&v=beta&t=pnsu-lKP9r0vyoc6iVkc6PjNRMUGQ1TTvnd7NwWdops",
               social: {
                 instagram: "john_doe_instagram1",
-                linkedin: "john_doe_linkedin1",
+                linkedin: "https://www.linkedin.com/in/vansh-nyati-187ab7203/",
                 email: "john.doe1@example.com",
               },
             },
@@ -101,7 +102,7 @@ const TeamPage = () => {
               photo: "https://media.licdn.com/dms/image/C5603AQHozOcLfpTRPw/profile-displayphoto-shrink_800_800/0/1642684242610?e=1706140800&v=beta&t=5Rw0IWQlySdDrMFr-CRTYXiTliF-TXh8pccZSF2Xj1E",
               social: {
                 instagram: "john_doe_instagram1",
-                linkedin: "john_doe_linkedin1",
+                linkedin: "https://www.linkedin.com/in/ashutosh-kanodia-b467241b6/",
                 email: "john.doe1@example.com",
               },
             },
@@ -111,7 +112,7 @@ const TeamPage = () => {
                 photo: "https://media.licdn.com/dms/image/D5635AQEkUKkuZbRhQw/profile-framedphoto-shrink_800_800/0/1699400219803?e=1701453600&v=beta&t=sJ8HBJk6suqOfwM8ecydaUqGH-hqIPvYH02M9f_8AKw",
                 social: {
                   instagram: "john_doe_instagram1",
-                  linkedin: "john_doe_linkedin1",
+                  linkedin: "https://www.linkedin.com/in/yash-shankaram-035426237/",
                   email: "john.doe1@example.com",
                 },
               },
@@ -121,8 +122,8 @@ const TeamPage = () => {
                 photo: "",
                 social: {
                   instagram: "john_doe_instagram1",
-                  linkedin: "john_doe_linkedin1",
-                  email: "john.doe1@example.com",
+                  linkedin: "https://www.linkedin.com/in/shub-ana/",
+                  email: "shubham.anand1@learner.manipal.edu",
                 },
               },
   ];
